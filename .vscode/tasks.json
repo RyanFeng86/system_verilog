@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks":[
+        {
+            "label": "compile_with_verilator",
+            "type":"shell",
+            "command": "/usr/bin/verilator",
+            "args": [
+                "--sv","", "--cc","",
+                "${file}",
+                "--exe",
+                "sim_main.cpp"
+            ],
+           
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "compile_cpp",
+            "type": "shell",
+            "command": "/usr/bin/make",
+            "args": [
+                "-C","obj_dir",
+                "-j","1",
+                "-f","V${fileBasenameNoExtension}.mk",
+                "V${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "dependsOn":"compile_with_verilator"
+        }
+    ]
+}

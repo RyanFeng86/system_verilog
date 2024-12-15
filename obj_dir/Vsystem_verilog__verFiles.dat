@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "--sv --cc /media/ryanfeng/HardDisk/Study/Git_Repos/system_verilog/system_verilog.sv --exe sim_main.cpp"
+S       107   410665  1734228052   958650000  1734228052   958650000 "/media/ryanfeng/HardDisk/Study/Git_Repos/system_verilog/system_verilog.sv"
+S   7892640 58730675  1734226779   756588344  1598506306           0 "/usr/bin/verilator_bin"
+T      3659   219454  1734235691   391590800  1734235691   391590800 "obj_dir/Vsystem_verilog.cpp"
+T      2448   219060  1734235691   390244300  1734235691   390244300 "obj_dir/Vsystem_verilog.h"
+T      1813   410592  1734235691   392556400  1734235691   392556400 "obj_dir/Vsystem_verilog.mk"
+T      2189   219068  1734235691   390998400  1734235691   390998400 "obj_dir/Vsystem_verilog__Slow.cpp"
+T       584   432383  1734235691   389017000  1734235691   389017000 "obj_dir/Vsystem_verilog__Syms.cpp"
+T       850   170384  1734235691   389634500  1734235691   389634500 "obj_dir/Vsystem_verilog__Syms.h"
+T       371   432227  1734235691   393007100  1734235691   393007100 "obj_dir/Vsystem_verilog__ver.d"
+T         0        0  1734235691   395132700  1734235691   395132700 "obj_dir/Vsystem_verilog__verFiles.dat"
+T      1582   406563  1734235691   392080400  1734235691   392080400 "obj_dir/Vsystem_verilog_classes.mk"
